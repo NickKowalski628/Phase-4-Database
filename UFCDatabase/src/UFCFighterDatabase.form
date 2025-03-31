@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UFCAppGUI">
+  <grid id="27dc6" binding="FighterGUI" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="789" height="556"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="fe30c" class="javax.swing.JLabel" binding="UFCDatabase">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="30" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Sans Serif Collection" size="20" style="0"/>
+          <foreground color="-16777216"/>
+          <horizontalTextPosition value="0"/>
+          <text value="UFC Database"/>
+        </properties>
+      </component>
+      <scrollpane id="be3a9">
+        <constraints>
+          <grid row="1" column="1" row-span="6" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="400" height="300"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16094544"/>
+          <foreground color="-16094544"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="7e7dc" class="javax.swing.JTable" binding="fighterTable">
+            <constraints/>
+            <properties>
+              <autoResizeMode value="1"/>
+              <background color="-1"/>
+              <dropMode value="USE_SELECTION"/>
+              <font name="Sans Serif Collection" size="12" style="0"/>
+              <foreground color="-14803166"/>
+              <selectionForeground color="-16094544"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="32c4a" class="javax.swing.JButton" binding="btnAddFighter">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add Fighter"/>
+        </properties>
+      </component>
+      <component id="b7c1" class="javax.swing.JButton" binding="btnDisplayAll">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Display All Fighters"/>
+        </properties>
+      </component>
+      <component id="1def1" class="javax.swing.JButton" binding="btnUpdateInfo">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Update Fighter Information"/>
+        </properties>
+      </component>
+      <component id="8b4e2" class="javax.swing.JButton" binding="btnRemoveFighter" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Remove Fighter"/>
+        </properties>
+      </component>
+      <component id="b14a9" class="javax.swing.JButton" binding="btnPercentSort" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Sort Fighter by win %"/>
+        </properties>
+      </component>
+      <component id="6ba58" class="javax.swing.JButton" binding="btnExit">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Exit"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
